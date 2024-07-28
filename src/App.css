@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+  width: '100%';
+  height: '100%';
+}
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat&display=swap"); 
+.App { 
+	min-height: 100vh; 
+	height: auto; 
+	text-align: center; 
+	font-family: "Montserrat", sans-serif; 
+} 
+
+h1 { 
+	font-family: "Fredoka One", cursive; 
+
+} 
+
+pre { 
+	font-size: 24px; 
+	color: #113a5d; 
+} 
+
+hr { 
+	margin-top: 20px; 
+	width: 60%; 
+} 
+
+.inp { 
+	width: 200px; 
+	height: 40px; 
+	border: 2px solid #113a5d; 
+	margin: 0px 10px; 
+	padding-left: 6px; 
+	font-size: 22px; 
+} 
+
+.btn { 
+	width: 90px; 
+	height: 40px; 
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-top: 50px;
+}
+body {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://picsum.photos/200/300');
+  background-size: cover;
+  background-position: center;
+  height: 12;
+  margin: 0;
+}
+h2 {
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+h1 {
+  margin-bottom: 0;
+  font-family: 'Comics Sans MS';
+  margin-top: 5px;
+}
+
+button {
+  display:inline-block;
+  padding:0.35em 1.2em;
+  border:0.1em solid #FFFFFF;
+  background-color: transparent;
+  margin:0 0.3em 0.3em 0;
+  border-radius:9cm;
+  color:black;
+  font-size: 20px;
+  transition: all 0.2s;
+}
+button:hover {
+  color:#000000;
+  background-color:#282c34;
+}
+img {
+  width: 50vh;
+  height: vh;
+  margin: 9px;
+  border-color: #000000;
+  border:9px;
+  padding: 0;
+}
+.App-header {
+  /* Add a subtle gradient background */
+  background-image: linear-gradient(to bottom, #282c34, #1a1d23);
+}
+
+h1 {
+  /* Add a fancy font and text shadow */
+  font-family: 'Pacifico', cursive;
+  text-shadow: 2px 2px 4px #fff;
+}
+
+.button-container {
+  /* Center the buttons horizontally */
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button {
+  /* Add some extra styling to the buttons */
+  font-size: 24px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #282c34;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+button:hover {
+  /* Add a hover effect to the buttons */
+  background-color: #1a1d23;
+  box-shadow: 0 0 10px #fff;
+}
+
+img {
+  /* Add a border radius to the image */
+  border-radius: 10px;
+}

@@ -1,0 +1,4 @@
+{
+  "usePolling": true,
+  "interval": 100
+}
